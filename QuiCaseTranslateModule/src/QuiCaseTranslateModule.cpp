@@ -3,7 +3,7 @@
 
 CQuiCaseTranslateModule::CQuiCaseTranslateModule(QWidget *parent)
     : QWidget(parent)
-	,ui(new Ui::QuiCaseTranslateModuleClass)
+	,ui(new Ui::QuiCaseTranslateModule)
 {
     ui->setupUi(this);
 }

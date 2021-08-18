@@ -7,7 +7,7 @@
 #include "PublicMarco.h"
 namespace Ui
 {
-	class QuiCaseTranslateModuleClass;
+	class QuiCaseTranslateModule;
 }
 class CQuiCaseTranslateModule : public QWidget,public IQuiCaseTranslateModule
 {
@@ -72,7 +72,7 @@ public:
 	*/
 	virtual bool Uninitialise();
 private:
-    Ui::QuiCaseTranslateModuleClass *ui;
+    Ui::QuiCaseTranslateModule *ui;
 };
 DECLARE_MODULE(QuiCaseTranslate, extern)
 #endif // QuiCaseTranslateModule_h__
